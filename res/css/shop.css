@@ -1,0 +1,15 @@
+.shop-intro{
+	/*height: 25vh;*/
+	padding-top: 6rem;
+}
+.shop-intro h1{
+	font-size: 3rem;
+	font-weight: bold;
+
+	
+}
+h3{
+	color: #fff;
+	font-weight: bold;
+	padding: 1rem;
+}

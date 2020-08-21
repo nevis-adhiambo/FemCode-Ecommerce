@@ -1,0 +1,24 @@
+.login{
+	padding-top: 4rem;
+}
+.login-wrapper{
+	height: auto;
+	padding: 4rem;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 1rem;
+}
+.login-wrapper-btn{
+	background: #000;
+	color: #ccc;
+}
+.login-wrapper-btn:hover{
+	background: #fff;
+	color: #000;
+}
+input{
+	height: 3rem;
+}
+input#remember{
+	height: 0.8rem;
+}

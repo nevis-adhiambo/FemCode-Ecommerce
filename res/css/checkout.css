@@ -1,0 +1,37 @@
+ .returning-customer{
+ 	padding-top: 6rem;
+ 	font-size: bold;
+ }
+ .coupon, .customer-order, {
+ 	border:1px solid #ccc;
+ }
+ 
+ textarea, select,input{
+ 	border-radius: 0.1rem;
+ 	height: 3rem;
+ }
+ textarea{
+ 	height: 10rem;
+ }
+ 
+ table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 1.5rem;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+.payment-methods>div{
+	border:1px solid #ccc;
+	padding: 1rem;
+
+}

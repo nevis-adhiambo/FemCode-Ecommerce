@@ -1,0 +1,11 @@
+/*.footer{
+	background: #505050;
+	color: #fff;
+	line-height: 2rem;
+}
+.footer li{
+	list-style-type: square;
+}
+.footer li a{
+	color: #fff;
+}
