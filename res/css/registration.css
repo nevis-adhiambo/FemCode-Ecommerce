@@ -1,0 +1,18 @@
+@import url('./globalStyles.css');
+
+.container h2{
+  margin-top: 5rem;
+  margin-left: 15px;
+}
+.container form .form-group label{
+  font-size: 20px;
+  display: block;
+}
+.container form .form-group input{
+  border: 2px solid #ccc;
+}
+.container form .form-group .btn{
+  outline: none;
+  background-color: var(--Tertiary);
+  color: white;
+}

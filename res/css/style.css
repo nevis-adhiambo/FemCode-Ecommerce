@@ -1,24 +1,12 @@
+@import url('./globalStyles.css');
 body{
+	color: white;
+	font-family: 'Open Sans Condensed',sans-serif;
+}
 
-}
-.social-part .fa{
-    padding-right:20px;
-}
- nav ul li a{
-    margin-right: 20px;
-    color: #fff;
-    font-weight: bold;
 
-}
-nav ul li a:hover{
-	color: #000;
-}
-.social-part a>i{
-	color: #fff;
-}
-section{
-	height: auto;
-}
+
+
 .landing-page-wrapper{
 	padding-top: 4rem;
 	width: 100%;
@@ -43,22 +31,86 @@ section{
 	color: #000;
 	background: #fff;
 }
-.footer h2{
-	color: #28a745;
-}
-.footer{
-	background:#000;
-	color: #fff;
-	line-height: 2rem;
-}
-.footer li{
-	list-style-type: square;
-}
-.footer li a{
-	color: #fff;
-}
-.footer li a:hover{
-	color: #28a745;
-	margin-left: 0.5rem;
 
+/* Section */
+section h3{
+	color: white;
+	font-family: 'Spirax',sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 50px;
+	line-height: 1.5;
+}
+section h3 span{
+	transform: rotate(-6deg);
+	margin: 0 3px;
+	display: inline-block;
+	color: var(--Tertiary);
+	
+	animation: tilt 1.5s infinite;
+}
+section .bg-text{
+	font-family:'Montserrat';
+	color: white;
+	text-align: left;
+}
+section .bg-text .p1{
+	font-size: 20px;
+	font-weight: bold;
+}
+section .bg-text .p1 span{
+	color: var(--Tertiary);
+}
+section .bg-text .p2{
+	font-size: 40px;
+	padding: 10px 0;
+	height: 80px;
+	text-transform: uppercase;
+}
+section a{
+	background-color: var(--P-Light);
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 10px 40px;
+	border-radius: 3px;
+}
+section a:hover{
+	animation:tilt 2s infinite linear;
+}
+/* main */
+
+.main .col-sm-12{
+	margin: 20px 0px;
+	text-align: center;
+	padding: 0px;
+	text-align: center;
+}
+.main .col-sm-12 img{
+	transition: all .5s ease;
+	width: 95%;
+	margin: 0 ;
+	height: 300px;
+}
+
+.main .col-sm-12 img:hover{
+	transform: scale(1.02);
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+
+}
+
+@keyframes tilt{
+	from{
+		transform: rotate(6deg);
+	}
+	to{
+		transform: rotate(-10deg);
+	}
+}
+@media screen and (min-width:535px){
+	section .bg-text .p2{
+		font-size: 50px;
+		margin-top: 30px;
+		text-transform: uppercase;
+	}
 }

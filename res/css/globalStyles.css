@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+	--Primary:#004d40;
+	--P-Light:#39796b;
+	--P-Dark:#00251a;
+	--Secondary:#00695c;
+	--S-Light:#439889;
+	--S-Dark:#003d33;
+	--Tertiary:crimson;
+}
+/* Header */
+.social-part .fa{
+	padding-right:20px;
+}
+
+.social-part a>i{
+color: #fff;
+font-size: 25px;
+}
+.navbar{
+	background: var(--P-Light) ;
+	color: red;
+}
+
+nav ul li a{
+	margin-right: 20px;
+	color: #fff;
+	font-weight: bold;
+	
+}
+nav ul li a:hover{
+color: #000;
+}
+.section-background{
+	height: auto;
+	background: url('/FemCode-Ecommerce/images/photos/henry-co-Gviz3cFSf_Y-unsplash.jpg') center no-repeat;
+	background-size: cover;
+}
+/* Footer */
+.footer{
+	background-color:var(--Secondary) !important;
+	color: #fff;
+	line-height: 2rem;
+	padding: 40px 10px;
+}
+footer .row h2{
+	color: var(--P-Dark);
+	font-weight: 900;
+	font-size: 40px;
+	font-family: 'Spirax',sans-serif;
+}
+footer .row h2:hover{
+	text-decoration: none !important;
+}
+.footer quote {
+	font-size: 30px;
+}
+.footer h3{
+	font-family: 'Montserrat',sans-serif;
+}
+.footer ul li{
+	transition: transform .5s ease;
+	list-style-type: none;
+}
+.footer ul li a{
+	color: white;
+	font-weight: 700;
+}
+.footer ul li:hover{
+	transform: scale(1.1);
+	box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}

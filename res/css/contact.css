@@ -1,14 +1,29 @@
+@import url('./globalStyles.css');
 .Get-in-touch{
 	padding-top: 4rem;
 }
-.title{
-	
-	padding: 1rem;
+.container form textarea,
+.container form input{
+	border: 2px solid #ccc;
+	padding: 5px;
+	outline: 0;
+}
+
+.container form .btn{
+	background-color: var(--Tertiary);
+	color: white;
+	border: none;
+	outline: 0;
+	transition: all .5s ease;
+}
+
+.container form .btn:active{
+	transform: scale(.9);
 }
 textarea{
 	height: 10rem;
 }
 .location i{
 	font-size: 2rem;
-	color: #28a745;
+	color: var(--S-Dark);
 }

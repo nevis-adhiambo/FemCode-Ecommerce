@@ -1,24 +1,41 @@
-.login{
-	padding-top: 4rem;
+@import url('./globalStyles.css');
+
+.container{
+	margin-top:100px;
 }
-.login-wrapper{
-	height: auto;
-	padding: 4rem;
-	color: #fff;
-	font-weight: bold;
-	border-radius: 1rem;
+
+.container .row .login-wrapper{
+	background-color: var(--Secondary);
+	padding: 100px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
 }
-.login-wrapper-btn{
-	background: #000;
-	color: #ccc;
+.container .row .login-wrapper a{
+	background-color: var(--Primary);
+	color: white;
+	margin-top: 50px;
 }
-.login-wrapper-btn:hover{
-	background: #fff;
-	color: #000;
+.container .row .sign-in{
+	padding: 20px;
+	position: relative;
 }
-input{
-	height: 3rem;
+
+.container .row .sign-in form input{
+	border: 2px solid #ccc;
+	outline: 0 !important; 
 }
-input#remember{
-	height: 0.8rem;
+.container .row .sign-in .log-in{
+	outline: none;
+	background-color: var(--Tertiary);
+	border: none;
+	color: white;
+	font-size: 22px;
+	padding: 8px;
 }
+
+.container .row .sign-in .log-in .text-right i{
+	cursor: pointer;
+}
+

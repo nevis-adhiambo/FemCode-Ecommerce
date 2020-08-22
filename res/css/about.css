@@ -1,3 +1,4 @@
+@import url('./globalStyles.css');
 .goals{
   padding-top: 6rem;
 }
@@ -12,4 +13,20 @@
 }
 .person:hover {
     border-color: #f1f1f1;
+}
+.container .mission h3, .team h3{
+  color: var(--p-Dark);
+  font-weight: bold;
+  font-family: 'Spirax';
+  font-size: 35px;
+}
+.team .row .col-sm-12{
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+.team .row .col-sm-12 i {
+  color: var(--Tertiary);
+}
+.team .row .col-sm-12 .pos{
+  font-family: 'Spirax';
+  font-weight: bold;
 }

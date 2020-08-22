@@ -1,15 +1,52 @@
+@import url('./globalStyles.css');
+
 .shop-intro{
-	/*height: 25vh;*/
 	padding-top: 6rem;
 }
+.shop-intro .title{
+	color: var(--Tertiary);
+	font-family: 'Montserrat',sans-serif;
+}
 .shop-intro h1{
-	font-size: 3rem;
+	font-size: 40px;
 	font-weight: bold;
-
-	
+}
+.shop-title{
+	background-color: var(--S-Dark);
 }
 h3{
 	color: #fff;
 	font-weight: bold;
 	padding: 1rem;
 }
+.container .row{
+	margin-bottom: 40px;
+}
+
+.container .row .col-md-4{
+	box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+	padding: 0;
+	padding-bottom: 10px;
+	background-color: var(--S-Light);
+
+}
+.container .row .col-md-4 img{
+	width: 100%;
+	height: 350px;
+}
+.container .row p{
+	font-size: 25px;
+	font-family: 'Spirax';
+}
+.container .row span{
+	font-size: 20px;
+	color: var(--Tertiary);
+	font-weight: bold;
+	position: relative;
+}
+/* .container .row span::before{
+	content: '';
+	display: inline-block;
+	position: absolute;
+	left: -50px;
+} */

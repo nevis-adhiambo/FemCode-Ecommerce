@@ -1,7 +1,10 @@
-$(document).ready(function () {
-$('.navbar-light .dmenu').hover(function () {
-        $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
-    }, function () {
-        $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
-    });
+
+ new Typed('#typed',{
+    strings:['Shop With Us <i class="fa fa-shopping-cart" aria-hidden="true"></i>','Limited Quantities Available'],
+    typeSpeed:80,
+    backSpeed:50,
+    loop:true,
+    cursorChar:'',
 });
+
+AOS.init();

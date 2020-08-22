@@ -7,13 +7,13 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="res/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="res/css/style.css">
+    
     <link rel="stylesheet" type="text/css" href="res/css/checkout.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-sm fixed-top  navbar-dark bg-success">
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark  ">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,15 +49,16 @@
         </div>
       </nav>
     <div class="container ">
-        <div class="returning-customer mb-3 text-center">
-            <p>Returning Customer? <a href="login.html">Click here</a> to login</p>
+        <div class="returning-customer mb-5 text-center">
+            <p>Returning Customer? <a href="login.html" class="link">Click here</a> to login.</p>
         </div>
-        <div class="row">
-            <div class="col-lg-6 mb-3 ">
+        <div class="row mb-4">
+            <div class="col-lg-5 pb-4 px-2 mx-auto mb-3 ">
                 <div class="billing-details p-3 ">
-                    <form action="">
+                    <form >
                         <label for="country">Country</label><br>
                         <select id="country" name="country" required="" class="w-100 mb-sm-3">
+                            <option value="disabled" disabled selected>Choose Country</option>
 						    <option value="australia">Australia</option>
 						    <option value="canada">Canada</option>
 						    <option value="usa">USA</option>
@@ -97,34 +98,30 @@
                         <input type="Number" name="pnone" id="phone" required="" class="w-100"><br>
 
                         <div class="checkboxs row py-2">
-                            <div class="col-md-6 w-100">
-                                <input type="checkbox" name="">Create an account?
-                            </div>
-                            <div class="col-md-6 w-100">
-                                <input type="checkbox" name="">Ship to a different Address?
+                            <div class="col-md-6 mb-2 w-100">
+                                <a href="">Create an account?</a>
                             </div>
                         </div>                     
 
-                        
-
-                        <br><label for="order">Order Message</label>
-                        <br>
-                        <br>
-                        <textarea placeholder="Write your message here..." class="w-100"></textarea>
+                        <div class="orderMsg">
+                            <label for="order">Order Message</label>
+                            <br>
+                            <textarea placeholder="Write your message here..." class="w-100"></textarea>
+                        </div>
                     </form>
                 </div>
             </div>
-            <div class="col-lg-6 w-100 mb-3">
-                <div class="coupon p-3">
+            <div class="col-lg-5 mx-auto px-3  w-100 mb-3">
+                <div class="coupon mx-2  mb-3 ">
                     <p>Enter your coupon code if you have one</p>
-                    <form class="form-inline my-2 my-lg-0">
+                    <form class="form-inline my-2 ">
                         <input class="form-control" type="search" placeholder="Coupon Code" aria-label="Search">
-                        <button class="btn bl-0" type="submit">Apply</button>
+                        <button class="btn" type="submit">Apply</button>
                     </form>
                 </div>
-                <div class="customer-order p-2 mt-3">
+                <div class="customer-order p-2 my-3">
                     <h3>Your Order</h3>
-                    <table class="w-100">
+                    <table class=" table table-striped w-100">
                         <tr>
                             <th>Product</th>
                             <th>Order</th>
@@ -146,19 +143,29 @@
                             <td>$345</td>
                         </tr>
                     </table>
-                    <div class="payment-methods mt-4">
-                        <div class="mb-3">
-                            <a href="#">Direct Bank transfer</a>
+                    <div class="payment-methods my-4">
+                        <div class="mb-0">
+                            <a href="#">
+                                Direct Bank transfer
+                            </a>
+                            <i class="fa fa-bank fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="mb-0">
+                            <p>
+                                <a href="#">Cheque Payment</a>
+                                <i class="fa fa-2x fa-money" aria-hidden="true"></i>
+                            </p>
                         </div>
                         <div class="mb-3">
-                            <p><a href="#">Cheque Payment</a></p>
-                        </div>
-                        <div class="mb-3">
-                            <p><a href="#">Paypal</a></p>
+                            <p>
+                                <a href="#">Paypal</a>
+                                <i class="fa fa-2x fa-cc-paypal" aria-hidden="true"></i>
+                            </p>
                         </div>
                     </div>
                                        
-                    <input type="submit" value="PLACE ORDER" class="w-100 py-2 btn-success mb-4">
+                    <input type="submit" value="PLACE ORDER" class="w-100 py-2  mb-4">
+                    <img src="./images/svg/undraw_mobile_pay_9abj.svg" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -169,8 +176,14 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="brand">
-                        <a href="index.html"><h2>Nevis Site</h2></a>
-                        <p>Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod tem.</p>
+                        <a href="index.html"><h2 class="mb-4">E-Commerce</h2></a>
+						<i class="fa fa-shopping-bag  fa-2x "></i>
+						<div class="quote">
+							<quote>
+								<strong>"Play</strong> by the rules but be ferocious."
+							</quote>
+							<p style="text-align: right;">-Richard Branson</p>
+						</div>
                     </div>
                 </div>
                 <div class="col-md-3">

@@ -1,3 +1,16 @@
-.carousel-products{
-	
+@import url('./globalStyles.css');
+
+.carousel-products .text-center{
+  margin-top: 20px;
+  padding: 20px;
+  color: var(--Secondary);
+}
+.carousel-products .carousel-inner img{
+  height: 450px;
+}
+.container-fluid{
+  margin-bottom: 40px;
+}
+.container-fluid .row .col-sm-3 img{
+  height: 330px;
 }
