@@ -1,7 +1,10 @@
 @import url('./globalStyles.css');
 body{
-	/* color: white; */
 	font-family: 'Open Sans Condensed',sans-serif;
+}
+
+.all{
+	display: none;
 }
 .show{
 	display: block;
@@ -9,7 +12,6 @@ body{
 .hide{
 	display: none;
 }
-
 .landing-page-wrapper{
 	padding-top: 4rem;
 	width: 100%;
