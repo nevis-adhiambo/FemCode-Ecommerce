@@ -4,6 +4,25 @@ td>img{
 	width: 8rem;
 	height: 8rem;
 }
-.table-responsive{
-	padding-top: 6rem;
+.table-striped{
+}
+tr:nth-child(odd){
+	background-color: var(--P-Light);
+	color: white;
+}
+button{
+	background-color: var(--Tertiary);
+	border: none;
+	display: block;
+	padding: 8px;
+	color: white;
+	outline: 0;
+	transition: transform .5s ease;
+}
+button:active{
+	transform: scale(.9);
+	outline: 0;
+}
+td i{
+	color: var(--Tertiary);
 }

@@ -1,0 +1,42 @@
+.container-fluid{
+  background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/FemCode-Ecommerce/images/Screenshot_20200808-195152_1598179007240.png')center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+.form input{
+  padding: 10px ;
+  padding-left:20px ;
+  width: 90%;
+  background: var(--S-Light);
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+input::placeholder{
+  color: white;
+  font-weight: 700;
+}
+input:focus{
+  background-color: white;
+}
+.font-container{
+  transform: translateX(-40px);
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: var(--Tertiary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
