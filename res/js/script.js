@@ -10,17 +10,17 @@
 AOS.init();
 
 
-$('.page-load').ready(function(){
-    $.fakeLoader({
-        timeToHide:1200,
-        bgColor:"#004d40",
-        spinner:"spinner3"
-    });
-$(document).ready(_=>{
-    $('.page-load').addClass('show')
-    setTimeout(_=> {
-        $('.page-load').addClass('hide')
-        $('.all').addClass('show')
-    },4000)
-})
-});
+// $('.page-load').ready(function(){
+//     $.fakeLoader({
+//         timeToHide:1200,
+//         bgColor:"#004d40",
+//         spinner:"spinner3"
+//     });
+// $(document).ready(_=>{
+//     $('.page-load').addClass('show')
+//     setTimeout(_=> {
+//         $('.page-load').addClass('hide')
+//         $('.all').addClass('show')
+//     },4000)
+// })
+// });
